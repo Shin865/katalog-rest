@@ -1,13 +1,10 @@
 {
-  "homepage": "https://shin865.github.io/katalog-rest",
   "name": "restaurant-apps",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start-dev": "webpack serve --config webpack.dev.js",
-    "pradeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "webpack --config webpack.prod.js",
     "serve": "http-server dist --port 8600",
     "e2e": "codeceptjs run --steps",
